@@ -106,9 +106,6 @@ class PDFMergerApp:
                 
                 messagebox.showinfo("Sucesso", f"PDFs mesclados com sucesso em:\n{output_file}")
                 
-                # Opcional: abrir o arquivo após criação
-                # os.startfile(output_file)  # Para Windows
-                
         except Exception as e:
             messagebox.showerror("Erro", f"Ocorreu um erro ao mesclar os PDFs:\n{str(e)}")
         
