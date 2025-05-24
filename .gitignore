@@ -1,0 +1,27 @@
+# Arquivos do macOS
+.DS_Store
+
+# Arquivos de ambiente
+.env
+.venv
+env/
+
+# Cache e arquivos temporários
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+ENV/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos gerados pelo Python
+*.egg-info/
+dist/
+build/
